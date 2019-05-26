@@ -1,12 +1,10 @@
-@import url("https://fontlibrary.org/face/renner");
-
 body {
   display: flex;
   min-height: 100vh;
   margin: 0;
   background-color: #1071b9;
   color: white;
-  font-family: "RennerBook";
+  font-family: monospace;
   font-size: 1.05rem;
 }
 
