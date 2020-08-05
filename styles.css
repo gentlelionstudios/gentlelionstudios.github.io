@@ -1,46 +1,48 @@
 body {
   display: flex;
-  min-height: 95vh;
+  min-height: 100vh;
   margin: 0;
+  background-color: #1071b9;
+  color: white;
   font-family: monospace;
+  font-size: 1.05rem;
 }
 
 main {
   margin: auto;
 }
 
+a,
+a:visited {
+  color: white;
+}
+
 a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
+}
+
+p, ul {
+  padding: 1em 0;
+}
+
+p {
+  font-size: 2.5em;
 }
 
 li {
   display: inline;
-  padding: 0.5em;
+  padding: 0 1em;
   font-size: 2.5em;
 }
 
-p, ul {
-  padding: 0.5em 0;
-}
-
-p {
-  font-size: 2em;
-  color: hsl(0, 0%, 48%);
-}
-
-.cerclet {
-  width: 425px;
-}
-
-.corundum {
-  width: 250px;
-}
-
-.icon {
-  color: #1071b9;
-}
-
 .logo {
-  width: 450px;
+  width: 475px;
   max-width: 100%
+}
+
+.circle-logo {
+  background-image: url(images/logo-circle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
